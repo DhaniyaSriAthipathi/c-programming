@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int delivery;
+    scanf("%d",&delivery);
+    if(delivery>=499)
+    printf("free delivery");
+    else
+    printf("delivery charges apply");
+    return 0;
+}
